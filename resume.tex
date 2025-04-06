@@ -1,0 +1,165 @@
+% LaTeX resume example template
+% Modified for Jack Cross
+
+\documentclass[10pt]{article}
+\usepackage{fullpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem} % For controlling item spacing
+\usepackage{xcolor} % For colors
+\usepackage{fontawesome5} % For social icons - you may need to install this package
+\usepackage{fancyhdr} % For page numbers and date
+\usepackage{lastpage} % For total page count
+
+% Adjust page margins
+\topmargin=-0.5in
+\textheight=9.5in
+\oddsidemargin=-0.25in
+\evensidemargin=-0.25in
+\textwidth=7.0in
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{Page \thepage\ of \pageref*{LastPage} \hfill \today}
+
+% Define colors
+\definecolor{darkblue}{RGB}{0,0,139}
+\definecolor{linkcolor}{RGB}{0,106,167}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    pdfborder={0 0 0}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE \textbf{Jack Cross}}\\[0.2in]
+  \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+    \faLinkedin \ \href{https://www.linkedin.com/in/jackcross23}{linkedin.com/in/jackcross23} \hspace{0.2in} 
+    \faGithub \ \href{https://github.com/jckcross}{github.com/jckcross} \hspace{0.2in}
+    \faGlobe \ \href{https://jackcross.com}{jackcross.com} \hspace{0.2in} & 
+    \faEnvelope \ jack.k.cross1@gmail.com\\
+  \end{tabular*}
+\end{center}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  {\Large \textbf{Experience}} & \hspace{0.05in}\rule{5.8in}{1pt} \\
+\end{tabular*}
+
+\vspace{.2in}
+
+\begin{itemize}[leftmargin=0.2in, label={}, itemsep=0.2in]
+  \item
+    \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+      \textbf{United States Air Force} & \textbf{May 2023 - Present}\\
+      \textit{Military Officer} & \textit{Columbus, MS}\\
+    \end{tabular*}
+
+    \begin{itemize}[leftmargin=0.2in, label={$\bullet$}, itemsep=0.05in]
+      \item Oversee planning, design, and maintenance of base infrastructure and facilities to ensure operational readiness.
+    \end{itemize}
+
+  \item
+    \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+      \textbf{Virginia Tech} & \textbf{August 2023 - December 2024}\\
+      \textit{Graduate Research Assistant} & \textit{Blacksburg, VA}\\
+    \end{tabular*}
+
+    \begin{itemize}[leftmargin=0.2in, label={$\bullet$}, itemsep=0.05in]
+      \item \textbf{Thesis:} Retrofit of Reinforced Concrete Beams using Externally Bonded and Unbonded Fiber Metal Laminate
+      \item Conducted four-point bending tests on concrete beams retrofitted with advanced fiber metal laminate composites.
+      \item Created predictive models for various laminate layups and anchorage configurations to predict structural performance.
+      \item Publication: \href{https://vtechworks.lib.vt.edu/items/f9c7c090-ecd5-4d00-8de2-522eaf4c3df4}{Virginia Tech Digital Repository}
+    \end{itemize}
+
+  \item
+    \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+      \textbf{Virginia Military Institute} & \textbf{May 2022 - May 2023}\\
+      \textit{Undergraduate Research Assistant} & \textit{Lexington, VA}\\
+    \end{tabular*}
+
+    \begin{itemize}[leftmargin=0.2in, label={$\bullet$}, itemsep=0.05in]
+      \item \textbf{Thesis:} Aggregate Optimization of High Strength Fiber-Reinforced Concrete 
+      \item Tested various local aggregate gradations to develop Ultra High Performance Concrete (UHPC) specimens.
+      \item Presented research findings at Marshall University ASCE Conference and ACI Convention in San Francisco.
+    \end{itemize}
+
+  \item
+    \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+      \textbf{Virginia Military Institute} & \textbf{May 2021 - May 2023}\\
+      \textit{Tutor} & \textit{Lexington, VA}\\
+    \end{tabular*}
+
+    \begin{itemize}[leftmargin=0.2in, label={$\bullet$}, itemsep=0.05in]
+      \item Provided one-on-one tutoring in calculus, differential equations, and probability to 15+ students weekly.
+      \item Taught material mechanics and statics concepts to 20+ students weekly in a classroom setting.
+    \end{itemize}
+\end{itemize}
+
+\vspace{.2in}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  {\Large \textbf{Education}} & \hspace{0.05in}\rule{5.8in}{1pt} \\
+\end{tabular*}
+
+\vspace{.2in}
+
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0.1in]
+  \item
+    \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+      \textbf{Virginia Tech} & \textbf{August 2023 - December 2024}\\
+      \textit{M.S. in Civil Engineering (Structural Engineering and Materials)} & \textit{Blacksburg, VA}\\
+    \end{tabular*}
+
+    \begin{itemize}[leftmargin=0.2in, label={$\bullet$}, itemsep=0.05in]
+      \item GPA: 3.64/4.0
+      \item Air Force Institute of Technology Graduate Scholarship Recipient
+    \end{itemize}
+
+  \item
+    \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+      \textbf{Virginia Military Institute} & \textbf{August 2019 - May 2023}\\
+      \textit{B.S. in Civil and Environmental Engineering} & \textit{Lexington, VA}\\
+    \end{tabular*}
+
+    \begin{itemize}[leftmargin=0.2in, label={$\bullet$}, itemsep=0.05in]
+      \item GPA: 3.80/4.0
+      \item Institute Honors Program Graduate
+      \item Leadership: Tau Beta Pi Engineering Honor Society (Vice President), ASCE Student Chapter
+      \item Four-Year Air Force ROTC Scholarship Recipient
+    \end{itemize}
+\end{itemize}
+
+\vspace{.2in}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  {\Large \textbf{Skills \& Certifications}} & \hspace{0.2in}\rule{4.5in}{1pt} \\
+\end{tabular*}
+
+\vspace{.2in}
+
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0.1in]
+  \item
+    \textbf{Technical Skills:}
+    Structural Analysis, Concrete Design, FEA Modeling, Materials Testing, Composite Materials
+
+  \item
+    \textbf{Engineering Software:}
+    AutoCAD, RISA, MASTAN, MathCAD, Microsoft Excel
+   \item
+    \textbf{Finite Element Analysis:}
+    ATENA, Abaqus
+  \item
+    \textbf{Programming:}
+    MATLAB, Python, LaTeX, Javascript
+
+  \item
+    \textbf{Professional:}
+    Engineer in Training (EIT) Certification, Secret Security Clearance (Adjudicated January 2022)
+\end{itemize}
+
+\end{document}
